@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+React Piano with TypeScript
+This project is an interactive website that allows you to play the piano using React with TypeScript. It utilizes reusable components to create a virtual piano experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Features
+Interactive piano keys: Each piano key is represented by an interactive component that produces a sound when clicked or when the associated keyboard key is pressed.
+Musical notes handling: The site supports multiple notes and octaves to offer a complete range of piano sounds.
+Modular design: Components are structured in a modular fashion, following React best practices to ensure reusable and easily maintainable code.
+Technologies Used
+React
+TypeScript
+Material UI
+Web Audio API
+Installation
+Make sure you have Node.js installed on your machine.
+Clone this repository using git clone https://github.com/your-username/piano-react-ts.git.
+Navigate to the project directory using cd piano-react-ts.
+Install dependencies using npm install.
+Usage
+Launch the application using npm start.
+Access http://localhost:3000 in your browser.
+Play the piano by clicking on the keys or using the keyboard to trigger corresponding notes.
